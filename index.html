@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>Logo</div>
+            <button onclick="ham()"><img src="assets/img/iconmonstr-menu-1.svg" alt=""></button>
+        </nav>
+        <div id="hamburger" class="unshow">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="bc"></div>
+    </header>
+
+    <main id="main">
+        <h1>Headline</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea commodi eos maxime quaerat est praesentium incidunt nostrum veritatis expedita explicabo in totam corporis odit molestias possimus, soluta quisquam. A perspiciatis tempore tempora nobis assumenda provident. Rem alias eius laboriosam? Suscipit, error eos sunt esse consequatur excepturi eum. Ratione fugit impedit sunt tempore debitis reprehenderit nulla eum necessitatibus perspiciatis veniam unde voluptatem officiis, officia ut perferendis omnis nobis soluta natus laboriosam laborum possimus, tempora vel! Ipsum, deleniti quis exercitationem tempora quidem eligendi consequatur dolorum inventore nisi totam iusto expedita ipsa dignissimos modi eum veritatis hic veniam qui nihil sunt necessitatibus iure?</p>
+
+        <article>
+            <div>
+                <label for="">How do I apply?</label>
+                <input type="button" value="+" onclick="button1()">
+                <p id="textButton1" class="textUnshow1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nesciunt!</p>
+            </div>
+            <div>
+                <label for="">What are entry requirements</label>
+                <input type="button" value="+" onclick="button2()">
+                <p id="textButton2" class="textUnshow2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ea?</p>
+            </div>
+        </article>
+
+        <footer>
+            <div onclick="white()">white</div>
+            <div onclick="black()">black</div>
+            <div onclick="rose()">rose</div>
+        </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

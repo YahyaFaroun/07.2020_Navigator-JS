@@ -1,0 +1,125 @@
+body,a{
+    margin: 0;
+    color: black;
+}
+header{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+header nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5vh;
+    align-items: center;
+}
+header nav button{
+    border: none;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    right: 20px;
+}
+
+
+/* hamburger */
+.unshow{
+    position: absolute;
+    height: 100vh;
+    width: 500px;
+    top: 0;
+    right: -500px;
+    background-color: rgba(0, 0, 0, .2);
+    transition: right .5s ease;
+}
+.show{
+    position: absolute;
+    height: 100vh;
+    width: 500px;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .2);  
+}
+#hamburger ul{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+#hamburger li{
+    list-style: none;
+    font-size: 3em;
+    
+}
+#hamburger li a{
+    text-decoration: none;
+}
+#bc{
+    background: url(../img/bc.jpg) center/cover no-repeat;
+    height: 90vh;
+}
+main{
+    height: 90vh;
+    padding-top: 30vh;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+main article{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+.textShow1{
+    opacity: 1;
+}
+.textUnshow1{
+    opacity: 0;
+}
+.textShow2{
+    opacity: 1;
+}
+.textUnshow2{
+    opacity: 0;
+}
+
+
+
+footer{
+    margin-top: 40vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+footer div{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+footer div:nth-of-type(1){
+    background: linear-gradient(90deg, black 50%, white 50%)
+}
+footer div:nth-of-type(2){
+    background: linear-gradient(90deg, white 50%, black 50%)
+}
+footer div:nth-of-type(3){
+    background: linear-gradient(90deg, #F4C4C4 50%, #2B2B29 50%)
+}
+.black{
+    color: white;
+    background: black;
+}
+.white{
+    color: black;
+    background-color: white;
+}
+.rose{
+    color: #F4C4C4;
+    background-color: #2B2B29;
+}
